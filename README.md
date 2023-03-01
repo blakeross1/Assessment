@@ -26,7 +26,7 @@ contiguity defined as horizontal or vertical (but _not_ diagonal) adjacency.
 - Python 3.10.4
 - numpy 1.22.3
 
-## Can use map from .txt file or terminal input
+## You may use map from a .txt file or type a map on the terminal input
 ### Text File:
 - The txt file must be contained in the same dir as the .py file.
 - Include the name of the text file as a parameter in the terminal command.
@@ -39,6 +39,7 @@ Using Map:  map.txt
 The largest island is: 11 in size.
 ```
 ### Terminal Input
+- If no argument is provided or the file is not found you may type in your own map.
 - Type in each line of the map followed by return
 - When finished enter end of message (Ctrl+Z)
 ```
