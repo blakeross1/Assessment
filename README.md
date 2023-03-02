@@ -30,7 +30,7 @@ contiguity defined as horizontal or vertical (but _not_ diagonal) adjacency.
 - The txt file must be contained in the same dir as the .py file.
 - Include the name of the text file as a parameter in the terminal command.
 ```
-py islandArea.py map.txt
+python islandArea.py map.txt
 ```
 Result:
 ```
@@ -42,7 +42,7 @@ The largest island is: 11 in size.
 - Type in each line of the map followed by return
 - When finished enter end of message (Ctrl+Z on Windows, Ctrl+D on mac)
 ```
-py islandArea.py
+python islandArea.py
 ```
 Result:
 ```
