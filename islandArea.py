@@ -26,11 +26,11 @@ def main():
         # If no file is provided or the file does not exist go to readFromStdin to get map from the terminal.
         else:
             print("File: ", fileName," does not exist.")
-            print("Please type in your map: (Ctrl+Z when finished)")
+            print("Please type in your map: (Ctrl+Z on Windows/Ctrl-D on mac when finished)")
             map, maxCol = readFromStdin(map)   
     else:
         print("No file provided.")
-        print("Please type in your map: (Ctrl+Z when finished)")
+        print("Please type in your map: (Ctrl+Z on Windows/Ctrl-D on mac when finished)")
         map, maxCol = readFromStdin(map) 
   
     # Create the array to track what parts of the map have been analized. Base size off the largest column size.
