@@ -18,7 +18,6 @@ contiguity defined as horizontal or vertical (but _not_ diagonal) adjacency.
 ~~~^~~
 ~~~^~~
 ```
-### Each row of the map does not need to be the same length.
 
 # How to Use:
 
@@ -41,14 +40,14 @@ The largest island is: 11 in size.
 ### Terminal Input
 - If no argument is provided or the file is not found you may type in your own map.
 - Type in each line of the map followed by return
-- When finished enter end of message (Ctrl+Z)
+- When finished enter end of message (Ctrl+Z on Windows, Ctrl+D on mac)
 ```
 py islandArea.py
 ```
 Result:
 ```
 No file provided.
-Please type in your map: (Ctrl+Z when finished)
+Please type in your map: (Ctrl+Z on Windows, Ctrl+D on mac when finished)
 ~~~^^^~~^^
 ~~^^^~~~~
 ^^~~~~^^~^
